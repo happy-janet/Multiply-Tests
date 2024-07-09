@@ -8,4 +8,7 @@ describe ("calculator", () =>{
     it("tax Value of 12000 is 2400", () =>{
         assert.equal(getTaxValue(12000), 2400)
     });
+    it("tax Value of 12000 is 40000", () =>{
+        assert.equal(getTaxValue(40000), 16000)
+    });
 })
