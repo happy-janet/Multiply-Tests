@@ -1,3 +1,8 @@
 export function getTaxValue(a){
-    return 0;
+    if (a < 12000) {
+        return 0;
+    }
+    else {
+        return 0.2 * a;
+    }
 }
